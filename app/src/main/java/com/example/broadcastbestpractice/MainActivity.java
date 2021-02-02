@@ -22,7 +22,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        dbHelper = new MyDatabaseHelper(this, "BookStore.db", null, 1);
+        dbHelper = new MyDatabaseHelper(this, "BookStore.db", null, 2);
 
         Button forceOffline = (Button) findViewById(R.id.force_offline);
         Button createDatabase = (Button) findViewById(R.id.create_database);
